@@ -1,0 +1,33 @@
+.heading{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 120px;
+    height: 300px;
+    min-height: 300px;
+    height:auto;
+}
+
+.img-logo{
+    height: 250px;
+    width: 200px;
+    
+}
+
+#about, #contact
+{
+    background-color: black;
+    min-height: 250px;
+    height:auto;
+    color:white;
+    overflow: auto;
+
+}
+
+#port_img{
+height:300px;
+}
+
+.icon{
+height: 50px;
+width: 50px;
+}
+
