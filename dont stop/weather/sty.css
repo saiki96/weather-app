@@ -1,0 +1,51 @@
+.heading{
+    font-family: 'VT323', monospace;
+    font-size: 90px;
+    color: white;
+    border-width: 5px;
+}
+
+#background{
+    background-image: url(http://pre12.deviantart.net/bd05/th/pre/f/2015/070/9/1/pixel_wallpaper_by_horrorfangirl-d8lb5c6.png)
+}
+
+#container{
+    width: 1000px;
+    height: 140px;
+    padding-left: 350px;
+}
+
+#citybar{
+    height: 50px;
+    width:auto;
+}
+
+#city{
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color: white;
+}
+
+#values{
+    height: 140px;
+    padding-left: 450px;
+    padding-right: 450px;
+    width: 1550px;;
+}
+
+#temp{
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 85px;
+}
+
+#cond
+    {
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    }
+#wind{
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+   
+}
