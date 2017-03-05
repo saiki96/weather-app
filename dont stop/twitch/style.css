@@ -1,0 +1,43 @@
+
+#table{
+   
+    margin:100px;
+    height: inherit;
+   
+    }
+
+.channelbox{
+    background-color: beige;
+
+    
+}
+
+
+body{
+   background-image: url(https://cdn0.iconfinder.com/data/icons/social-glyph/30/twitch-120.png); 
+   
+      
+}
+
+.header{
+    background-color: white;
+    width:-1px;
+}
+
+
+#img_logo
+{
+    height:90px;
+    width: 90px;
+}
+
+#topic{
+    font-family: 'VT323', monospace;
+    font-size: 80px;
+}
+
+#followerinfo{
+    font-family: 'Supermercado One', cursive;
+    font-size: 20px;
+    color: Black;
+}
