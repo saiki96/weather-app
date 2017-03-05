@@ -1,0 +1,246 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height:1.5;
+    padding:0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header
+{
+    background: #35424A;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: orange 3px solid;
+
+}
+
+header a
+{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+header
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+header li
+{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #branding
+{
+    float:left;
+
+}
+
+header #branding h1
+{
+    margin:0;
+}
+
+header nav
+{
+    float: right;
+    margin-top:10px;
+}
+
+ul
+{
+    margin:0;
+    padding: 0;
+}
+
+header .highlight, header .current a
+{
+    color:lightblue;
+    font-weight: bold;
+
+}
+
+header a:hover
+{
+    color:grey;
+    font-weight: bold;
+}
+
+#showcase
+{
+    min-height: 400px;
+    background: url("https://www.xes-inc.com/wp-content/uploads/2016/10/gray-geometric-background-1.jpg") no-repeat 0 -200px;
+    text-align: center;
+}
+
+#showcase h1
+{
+    margin-top:100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#news
+{
+    color:white;
+    background-color: #35424A;
+    padding: 1em;
+
+} 
+
+#news h1
+{
+    float:left;
+
+}
+
+#news form
+{
+    float:right;
+    margin-top:1em;
+}
+
+#news input[type="email"],
+#news input[type="text"]
+{
+    padding: 4px;
+    height:2em;
+    width: 240px;  
+}
+
+.button1
+{
+    height: 2em;
+    background:darkorange;
+    border:none;
+    padding:0 20px 0 20px; 
+}
+
+#boxes
+{
+    margin-top:1em;
+}
+
+#boxes .box
+{
+    float:left;
+    width: 30%;
+    padding:0.7em;
+    text-align: center;
+   
+}
+
+.img
+{
+    width:05em;
+    height: auto;
+}
+
+@media(max-width: 768px)
+{
+    header #branding,
+    header nav,
+    header nav li,
+    #news h1,
+    #news form,
+    #boxes .box,
+    article #main-col,
+    aside #sidebar
+    {
+        float:none;
+        text-align:center;
+        width:100%;
+        display: block;
+    }
+
+    header
+    {
+        padding-bottom: 1em;
+    }
+
+    #showcase h1
+    {
+        margin-top:2em;
+    }
+
+    #news .button1
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #news form [type="text"],
+    #news form [type="email"]
+    {
+        width:100%;
+        margin-bottom: .5em;
+
+    }
+
+}
+
+footer
+{
+    padding: 1em;
+    background-color:darkorange;
+    text-align: center;
+}
+
+aside#sidebar
+{
+    float:right;
+    width:30%;
+    margin-top: 1em;
+    height:40em;
+}
+
+#main-col
+{
+    float:left;
+    width: 60%;
+    margin-top: 1em;
+
+}
+
+.dark
+{
+    padding:15px;
+    background: #35424A;
+    color:white;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#sidebar input, #sidebar button
+{
+margin:.5em;
+}
+
+ul#services li
+{
+list-style: none;
+margin-bottom: .5em;
+padding: 20px;
+border :#cccccc solid 1px;
+background:#e6e6e6 ;
+}
+
+
